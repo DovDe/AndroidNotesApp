@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".NoteList">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_view"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_add_note"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_add_circle_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        app:backgroundTint="@null"
+        style="?android:attr/borderlessButtonStyle"
+        android:elevation="0dp"
+        app:elevation="0dp"
+        app:fabSize="mini"
+
+        android:clickable="true"/>
+
+</RelativeLayout>
